@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        #215c80 50%,
+        #06fde580 100%
+    );
+}
+
+.box_container{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(
+        #00a5a4 30%,
+        #91c2f475 100%
+    );
+    border-radius:  30px;
+    box-shadow: 0 0 20px #03254e;
+   
+}
+.box_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+#heading_desc{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.box_input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+.box_input label{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: white;
+}
+.box_input input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.box_input_check{
+    display: flex;
+    padding: 10px 40px;
+    color: white;
+}
+.box_input_check p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.submit_container{
+    display: flex;
+    padding: 10px 40px;
+}
+.submit_container button{
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    background-color: #ddf6fd;
+    margin: 0 30px;
+}
+.container_end{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
