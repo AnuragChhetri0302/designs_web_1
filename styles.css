@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+}
+.card_container{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgba(52, 52, 52, 0.8);
+    backdrop-filter: blur(2px);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.card_heading{
+    font-weight: 100;
+    text-align: center;
+}
+.card_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 0 20px;
+}
+.card_input input{
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+#login_btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: #1f1e1e;
+    color: aliceblue;
+    border: none;
+}
+#login_btn:hover{
+    cursor: pointer;
+}
+.card_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card_info_items{
+    display: flex;
+    font-size: 14px;
+}
+.card_info_items input{
+    margin-right: 10px;
+}
+.card_bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.card_bottom button{
+    padding: 5px 20px;
+    border: none;
+    color: aliceblue;
+    border-radius: 2px;
+}
+.card_bottom #btn_1{
+    background-color: #0069ad;
+}
+.card_bottom #btn_2{
+    background-color: #00d5ff;
+}
+.card_bottom #btn_3{
+    background-color: #9500ff;
+}
